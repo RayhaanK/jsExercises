@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: crimson;
+    padding: 1rem;
+}
+
+.first, .second, .third{
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+label {
+    background-color: darkslategrey;
+    font-size: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-right: 4rem;
+}
+
+.second input {
+    margin-left: 1rem;
+    text-align: center;
+}
+
+#display {
+    justify-content: end;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    
+    
+}

@@ -62,3 +62,6 @@ console.log(person);
 console.log(address);
 
 // end of q2
+
+// start of q3
+
