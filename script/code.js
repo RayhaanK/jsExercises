@@ -42,4 +42,23 @@ console.log(fullName);
 
 // end of q1
     
+// Start of q2
 
+let person = {
+    firstName : 'Rayhaan',
+    lastName : 'Khan',
+    age : '19',
+    subjects : 'English, Afrikaans, Mathematics, Physical Science'
+}
+
+let address = {
+    streetName : 'De Wet Road',
+    streetNumber : 25,
+    suburb : 'Ottery',
+    city : 'Cape Town', 
+    countryName : 'South Africa'
+}
+console.log(person);
+console.log(address);
+
+// end of q2
