@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: crimson;
+    padding: 1rem;
+}
+
+.first, .second, .third{
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+label {
+    background-color: salmon;
+    font-size: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-right: 4rem;
+
+}
+
+input {
+    text-align: center;
+    width: 14rem;
+}
+
+.second label {
+    padding-right: 4rem;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
+    
+}
+
+#calculate {
+    display: flex;
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.button{
+    display: flex;
+    justify-content: end;
+}
+
+#display {
+    margin-bottom: 1rem;
+    margin-right: 5rem;
+    max-width: fit-content;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    background-color: salmon;   
+}
+
+@media screen and (max-width: 550px) { 
+    .container {
+        width: 400px;
+        display: flex;
+    }
+
+    
+    label {
+        background-color: darkslategrey;
+        font-size: 2rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+        margin-right: 4rem;
+        display: block;
+        margin: auto;
+    }
+    
+    .first, .second, .third{
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+
+    input {
+        text-align: center;
+        width: 23rem;
+        margin-left: 0;
+        margin-top: 1rem;
+        display: block;
+    }
+    
+    
+    .second input {
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .right {
+        justify-content: center;
+        margin-left: 3rem;
+    }
+
+    .button {
+        justify-content: center;
+    }
+    
+    #calculate {
+        display: flex;
+        font-size: 1.5rem;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        width: 300px;
+        display: flex;
+    }
+
+    input {
+        text-align: center;
+        width: 16.7rem;
+        margin-left: 0;
+        margin-top: 1rem;
+        display: block;
+    }
+
+    .right {
+        justify-content: center;
+        margin-left: 4rem;
+    }
+    
+    #calculate {
+        margin-left: 2rem;
+    }
+}
