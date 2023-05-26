@@ -65,3 +65,17 @@ console.log(address);
 
 // start of q3
 
+let numb1 = document.querySelector('#num1');
+let numb2 = document.querySelector('#num2');
+let operator = (document.querySelector('#operator'));
+let display = document.querySelector('#display');
+let calculate = document.querySelector('#calculate');
+
+calculate.addEventListener('click',()=> {
+    if(numb1, operator, numb2 === ''){
+        display.innerHTML = "Input a valid number or operator"
+    } else {
+        calculate = eval(numb1.value + operator.value + numb2.value)
+        display.innerHTML = calculate;
+    }
+})
