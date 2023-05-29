@@ -90,4 +90,52 @@ function backwards(subject) {
     }
     console.log(backwards(subject))
 
+// end of q4
 
+// start of q5
+
+// let rayhaan = [
+//     firstName = "Rayhaan",
+//     age = 19,
+//     birthday = '18-04-2004'
+// ]
+
+// let date1 = new Date('04/18/2023')
+// let date2 = new Date('04/18/2024')
+
+// const days = (date1, date2) => {
+//     let difference = date2.getTime() - date1.getTime();
+//     let totalDays = Math.ceil(difference / (1000 * 3600 * 24));
+//     return totalDays;
+// }
+
+// console.log(rayhaan);
+// console.log(days(date1, date2) + "days till next birthday");
+
+// let rayhaan = [
+//         firstName = "Rayhaan",
+//         age = 19,
+//         dob = new Date('2004-04-18')
+//     ]
+
+// let birth = rayhaan.find(rayhaan => rayhaan.dob === rayhaan.dob)
+// let someDate = new Date();
+// console.log(someDate)
+// console.log(someDate.getFullYear())
+// console.log(rayhaan[0].dob.getFullYear())
+// console.log(someDate.getDay() -  rayhaan[0].dob.getDay(),"2 Days Left until Mish's birthday",);
+// console.log('Rayhaan is: ', rayhaan[0].dob.getDate() - someDate.getDate(), 'years old!')
+// console.log("OR")
+// console.log('Rayhaan is: ', someDate.getFullYear() - rayhaan[0].dob.getFullYear(), "years old!")
+
+let mish = [
+    {
+    name: 'Mish-Al',
+    dob: new Date('2002-5-31')
+}
+]
+
+let birth = mish.find(mish => mish.dob === mish.dob)
+let today = new Date();
+console.log(mish[0].dob.getDate() - today.getDate()," Days Left until Mish's birthday");
+console.log('Mish is: ', today.getFullYear() - mish[0].dob.getFullYear(), "years old!")
