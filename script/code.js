@@ -79,3 +79,15 @@ calculate.addEventListener('click',()=> {
         display.innerHTML = calculate;
     }
 })
+
+// end of q3
+
+// start of q4
+
+let subject = "Programming";
+function backwards(subject) {
+    return subject.split('').reverse().join('')
+    }
+    console.log(backwards(subject))
+
+
