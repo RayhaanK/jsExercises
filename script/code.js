@@ -139,3 +139,33 @@ let birth = mish.find(mish => mish.dob === mish.dob)
 let today = new Date();
 console.log(mish[0].dob.getDate() - today.getDate()," Days Left until Mish's birthday");
 console.log('Mish is: ', today.getFullYear() - mish[0].dob.getFullYear(), "years old!")
+
+// end of q5
+
+// start of switch Question
+
+let mark = prompt("Please enter your mark: ");
+let marks = parseInt(mark)
+switch (true) {
+    case marks >= 100:
+        console.log("You’re amazing");
+        break;
+        case marks >= 90:
+        console.log("Well Done!");
+        break;
+    case marks >= 80:
+        console.log("Way to go");
+        break;
+    case marks >= 75:
+        console.log("Keep it up");
+        break;
+    case marks >= 60:
+        console.log("You did good");
+        break;
+    case marks >= 50:
+        console.log("That was good");
+        break;
+    default:
+        console.log("You failed");
+        break;
+}
